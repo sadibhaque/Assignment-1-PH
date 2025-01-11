@@ -162,6 +162,10 @@ img, div, p, h1, h2, h3, h4, h5, h6 {
 
 .vision-btn2{
     background: rgb(255, 194, 57);
+    rgb(9, 161, 92);
+}
+.vision-btn3{
+    background: rgb(9, 161, 92);
 }
 
 
@@ -490,6 +494,7 @@ select{
     background: rgb(255, 255, 255);
     border: none;
     text-align: center;
+    opacity: 0.7;
 }
 
 /* Newslatter */
@@ -536,6 +541,7 @@ select{
     letter-spacing: 0%;
     text-align: left;
     padding: 18px 40px 18px 40px;
+    opacity: 0.7;
 }
 
 .sub-button{
