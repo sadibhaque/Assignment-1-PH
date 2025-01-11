@@ -36,11 +36,11 @@ section{
 }
 
 .button-primary:hover{
-    color: black;
-    background-color: white;
+    transition: 1s;
+    color: white;
+    background-color: rgb(66, 65, 65);
+    border: none;
     transform: scale(0.9);
-    transition: 0.5s;
-    border: 1px solid black;
 }
 
 .title-primary{
@@ -156,6 +156,37 @@ img, div, p, h1, h2, h3, h4, h5, h6 {
 
 /*Vision of Future */
 
+.vision-btn1{
+    background: rgb(84, 144, 245);
+}
+
+.vision-btn2{
+    background: rgb(255, 194, 57);
+}
+
+
+.vision-btn{
+    width: 142px;
+    height: 41px;
+    padding: 11px 20px 11px 20px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.vision-btn:hover{
+    transition: 1s;
+    color: white;
+    background-color: rgb(66, 65, 65);
+    border: none;
+    transform: scale(0.9);
+}
+
+
 
 .vision{
     margin-top: 80px;
@@ -227,10 +258,11 @@ img, div, p, h1, h2, h3, h4, h5, h6 {
 
 .pillers .card{
     width: 302px;
-    height: 244px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 10px;
     border-radius: 16px;
     background: white;
     padding: 32px 32px;
@@ -396,6 +428,10 @@ select{
     text-align: left;
 }
 
+.date, .time{
+    background-color: white;
+}
+
 /* Donate */
 
 .donate{
@@ -506,6 +542,14 @@ select{
     width: 150px;
     border-radius: 0px 8px 8px 0px;
     border-left: none;
+}
+
+.sub-button:hover{
+    transition: 1s;
+    color: white;
+    background-color: rgb(66, 65, 65);
+    border: none;
+    transform: scale(0.9);
 }
 
 
