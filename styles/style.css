@@ -35,6 +35,14 @@ section{
     border: none;
 }
 
+.button-primary:hover{
+    color: black;
+    background-color: white;
+    transform: scale(0.9);
+    transition: 0.5s;
+    border: 1px solid black;
+}
+
 .title-primary{
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
@@ -399,6 +407,11 @@ select{
     gap: 32px;
     text-align: center;
 }
+.amount{
+    display: flex;
+    gap: 24px;
+}
+
 .amounts{
     width: 240px;
     height: 128px;
@@ -417,8 +430,9 @@ select{
 }
 
 .amounts:hover{
-    background-color: rgb(198, 228, 214);
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    background-color: rgb(179, 226, 204);
+    transform: scale(0.9);
+    transition: 0.5s;
 }
 
 .amounts::selection::after{
@@ -426,7 +440,7 @@ select{
 }
 
 .amount-input{
-    width: 73%;
+    width: 78%;
     height: 64px;
     color: rgba(14, 14, 14, 0.3);
     font-family: Fira Sans;
@@ -442,3 +456,54 @@ select{
     text-align: center;
 }
 
+/* Newslatter */
+
+.newslatter{
+    padding: 80px 0px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(198, 228, 214);;
+    border-radius: 24px;
+}
+
+.letter-container{
+    width: 750px;
+    height: 235px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.sub-in{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: ; */
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+}
+
+.sub-input{
+    width: 520px;
+    border-radius: 8px 0px 0px 8px;
+    border-right: none;
+    border: none;
+    background-color: white;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 18px 40px 18px 40px;
+}
+
+.sub-button{
+    width: 150px;
+    border-radius: 0px 8px 8px 0px;
+    border-left: none;
+}
